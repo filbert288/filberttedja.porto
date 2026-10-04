@@ -41,7 +41,7 @@ h1 span{display:block}
 .btn{display:inline-block;padding:.8rem 1.6rem;border-radius:99px;text-decoration:none;font-weight:500;font-size:.95rem;border:1px solid var(--ink);color:var(--ink);transition:transform .2s}
 .btn:hover{transform:translateY(-2px)}
 .btn.fill{background:var(--btn);color:var(--btnink);border-color:var(--btn)}
-.photo{display:block;width:100%;max-width:25rem;justify-self:end;aspect-ratio:4/5;object-fit:cover;object-position:top;filter:drop-shadow(0 12px 28px rgba(0,0,0,.28));animation:rise .9s .15s both}
+.photo{display:block;width:100%;max-width:25rem;justify-self:end;aspect-ratio:4/5;object-fit:cover;object-position:top;background:transparent;border:2px solid var(--accent);border-radius:22px;outline:1px solid var(--line);outline-offset:10px;animation:rise .9s .15s both}
 @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
 
 /* ribbon */
